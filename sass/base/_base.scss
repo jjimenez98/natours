@@ -1,0 +1,17 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit; /*change the box model so the border and paddings are not adding to total width and height*/
+
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+}
